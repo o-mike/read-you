@@ -26,8 +26,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/read-you"
-Repository = "https://github.com/yourusername/read-you.git"
+Homepage = "https://github.com/o-mike/read-you"
+Repository = "https://github.com/o-mike/read-you.git"
 
 [project.scripts]
 read-you = "src.main:main"
