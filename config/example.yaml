@@ -1,0 +1,21 @@
+# This is an example configuration file.
+# To get started:
+# 1. Create a new file called 'secrets.yaml' in this directory
+# 2. Copy the 'openai' section below into secrets.yaml
+# 3. Replace the api_key with your actual OpenAI API key
+# 4. Keep secrets.yaml private (it's already in .gitignore)
+
+openai:
+  # IMPORTANT: Do NOT put your real API key here!
+  # Create a secrets.yaml file instead and put your key there
+  api_key: "YOUR-API-KEY-GOES-IN-SECRETS.YAML"
+  
+  # Default model to use - you can override this in secrets.yaml
+  model: "gpt-4o-mini"
+
+# Generation settings
+readme:
+  # Default to concise mode
+  verbose: false
+  # Include file paths in analysis
+  show_paths: true
