@@ -34,7 +34,7 @@ uv pip install read-you
 
 ### Option 4: Development Installation
 ```bash
-git clone https://github.com/yourusername/read-you.git
+git clone https://github.com/o-mike/read-you.git
 cd read-you
 pip install -e .
 ```
